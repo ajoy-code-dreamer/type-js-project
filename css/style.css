@@ -1,0 +1,32 @@
+/* ============ common css ============  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+ul,ol,menu{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* ============ common css ============  */
+
+/* ============ typeJs ============   */
+#type_js{
+    margin: 100px 0;
+}
+.typing{
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+}
+
+/* ============ typeJs ============   */
