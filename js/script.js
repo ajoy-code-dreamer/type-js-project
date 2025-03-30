@@ -5,16 +5,17 @@ let typing = document.querySelectorAll(".typing");
 let typing_array = Array.from(typing);
 
 
-typing_array.map((line) => {
-  let singleLineText = Array.from(line.innerHTML);
-  line.innerHTML = ""
+typing_array.map((item) => {
+  let singleLineText = Array.from(item.innerHTML);
+  item.innerHTML = ""
   let typeStart = 0
+  console.log(item)
 
   function typeJs() {
-    typing.innerHTML += line[typeStart];
+    item.innerHTML += singleLineText[typeStart];
     typeStart++;
-    if (typeStart > typing.length) {
-      line.innerHTML =""
+    if (typeStart > singleLineText.length) {
+      item.innerHTML =""
       typeStart = 0;
     }
   }

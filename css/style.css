@@ -27,6 +27,17 @@ a{
     font-weight: 600;
     font-size: 40px;
     position: relative;
+    display: inline-block;
+    margin: 10px 0;
+}
+.typing::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: brown;
 }
 
 /* ============ typeJs ============   */
